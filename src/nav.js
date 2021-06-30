@@ -6,7 +6,7 @@ function navBar() {
 	// Create the logo-box including img
 	nav.innerHTML = `
 	<div class="landing-page__logo-box">
-		<img src="img/logo-white.png" alt="Logo" class="landing-page__logo" />
+		<img src="./img/logo-white.png" alt="Logo" class="landing-page__logo" />
 	</div>
 	<ul class="nav__list">
 	<li class="nav__item home-btn">Home</li>
