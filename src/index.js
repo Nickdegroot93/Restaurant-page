@@ -9,12 +9,18 @@ container.appendChild(navBar());
 landingPage();
 
 const homeBtn = document.querySelector('.home-btn');
+const menuBtn = document.querySelector('.menu-btn');
 
 // Event listeners
 
 homeBtn.addEventListener('click', () => {
 	clearPage();
 	landingPage();
+});
+
+menuBtn.addEventListener('click', () => {
+	clearPage();
+	menuSection();
 });
 
 function clearPage() {

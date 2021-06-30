@@ -348,6 +348,8 @@ a:visited {
 /********* FOOTER *********/
 
 footer {
+	position: relative;
+	bottom: 0;
 	height: 10rem;
 	display: flex;
 	flex-direction: column;
