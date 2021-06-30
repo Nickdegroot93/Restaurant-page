@@ -345,6 +345,87 @@ a:visited {
 	padding: 1rem;
 	font-size: 0.8rem;
 }
+/************************** ABOUT US ***************************************/
+
+.about {
+	padding: 3rem;
+	background-image: linear-gradient(
+			to right bottom,
+			rgba(34, 40, 49, 0.9),
+			rgba(255, 211, 105, 0.3)
+		),
+		url(./img/about-bg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr repeat(2, 35rem) 1fr;
+}
+
+.about__text {
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	margin: auto 0;
+	padding: 2rem;
+	grid-column: 2 / 3;
+	line-height: 1.5rem;
+}
+
+.about__text-main {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+.about__img-box {
+	position: relative;
+	padding: 2rem;
+	grid-column: 3 / 4;
+}
+
+.about__img-1 {
+	position: absolute;
+	top: 10rem;
+	height: 22rem;
+	z-index: 3;
+	transition: all 0.5s ease;
+}
+.about__img-2 {
+	position: absolute;
+	height: 25rem;
+	z-index: 2;
+	top: 27rem;
+	left: 8rem;
+	transition: all 0.5s ease;
+}
+.about__img-3 {
+	position: absolute;
+	height: 30rem;
+	z-index: 1;
+	top: 12rem;
+	left: 17rem;
+	transition: all 0.5s ease;
+}
+
+.about__img-1:hover {
+	outline: solid 1px var(--gold);
+	transform: scale(1.05) translateY(-0.5rem);
+	z-index: 10;
+	box-shadow: 0 2.5rem 4rem rgb(0 0 0 / 50%);
+}
+.about__img-2:hover {
+	outline: solid 1px var(--gold);
+	transform: scale(1.05) translateY(-0.5rem);
+	z-index: 10;
+	box-shadow: 0 2.5rem 4rem rgb(0 0 0 / 50%);
+}
+.about__img-3:hover {
+	outline: solid 1px var(--gold);
+	transform: scale(1.05) translateY(-0.5rem);
+	z-index: 10;
+	box-shadow: 0 2.5rem 4rem rgb(0 0 0 / 50%);
+}
+
 /********* FOOTER *********/
 
 footer {
