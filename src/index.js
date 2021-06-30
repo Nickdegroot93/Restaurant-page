@@ -7,6 +7,7 @@ const container = document.querySelector('#content');
 container.prepend(navBar());
 
 // Run the 'init' page
+landingPage();
 
 const homeBtn = document.querySelector('.home-btn');
 const menuBtn = document.querySelector('.menu-btn');
