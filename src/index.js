@@ -1,15 +1,17 @@
 import { navBar } from './nav.js';
 import { createHtmlElement } from './createHTML.js';
 import { menuSection } from './menu.js';
+import { aboutSection } from './about.js';
 
 const container = document.querySelector('#content');
-container.appendChild(navBar());
+container.prepend(navBar());
 
 // Run the 'init' page
-landingPage();
 
 const homeBtn = document.querySelector('.home-btn');
 const menuBtn = document.querySelector('.menu-btn');
+const aboutBtn = document.querySelector('.about-btn');
+const contactBtn = document.querySelector('.contact-btn');
 
 // Event listeners
 
@@ -21,6 +23,11 @@ homeBtn.addEventListener('click', () => {
 menuBtn.addEventListener('click', () => {
 	clearPage();
 	menuSection();
+});
+
+aboutBtn.addEventListener('click', () => {
+	clearPage();
+	aboutSection();
 });
 
 function clearPage() {
