@@ -258,7 +258,7 @@ a:visited {
 			rgba(255, 211, 105, 0.3)
 		),
 		url(./img/menu-bg.jpg);
-	height: 100vh;
+	height: 60rem;
 	background-size: cover;
 	position: relative;
 }
@@ -269,7 +269,7 @@ a:visited {
 	color: var(--dark);
 	position: absolute;
 	left: 50%;
-	top: 9rem;
+	top: 7rem;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translatex(-50%);
 	width: 40vw;
@@ -278,7 +278,6 @@ a:visited {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	min-height: 50vh;
 }
 
 .menu-box__title {
